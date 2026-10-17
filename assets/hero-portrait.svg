@@ -99,15 +99,6 @@
       <g transform="translate(0, 56)">
         <text x="0" y="0" fill="#3B82F6" font-size="58" class="h-sans" font-weight="900" letter-spacing="1">RAJ</text>
         <text x="0" y="0" fill="url(#h-sheen)" font-size="58" class="h-sans" font-weight="900" letter-spacing="1">RAJ</text>
-
-        <!-- Red Accent Slashes /// + Stacked Tagline BUILD. BEYOND. -->
-        <g transform="translate(138, -5)">
-          <text x="0" y="0" fill="#EF4444" font-size="28" class="h-sans" font-weight="900" font-style="italic">///</text>
-          <g transform="translate(34, -14)">
-            <text x="0" y="0" fill="#FFFFFF" font-size="12" class="h-sans" font-weight="800" letter-spacing="0.5">BUILD.</text>
-            <text x="0" y="13" fill="#3B82F6" font-size="12" class="h-sans" font-weight="800" letter-spacing="0.5">BEYOND.</text>
-          </g>
-        </g>
       </g>
     </g>
 
