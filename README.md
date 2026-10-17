@@ -4,6 +4,14 @@
   <img src="assets/hero-portrait.svg" width="100%" alt="Shashikant Raj — Data Analyst &amp; AI Technologist. Building beyond.">
 </a>
 
+<p align="center">
+  <a href="https://sashibitcode.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-sashibitcode.vercel.app-3B82F6?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=vercel" alt="Portfolio website"></a>
+  <a href="https://github.com/sashibitcode"><img src="https://img.shields.io/badge/GITHUB-sashibitcode-3B82F6?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=github" alt="GitHub profile"></a>
+  <a href="https://www.linkedin.com/in/sashikant-raj/"><img src="https://img.shields.io/badge/LINKEDIN-sashikant--raj-3B82F6?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://leetcode.com/u/sashibitcode/"><img src="https://img.shields.io/badge/LEETCODE-sashibitcode-EF4444?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=leetcode" alt="LeetCode profile"></a>
+  <a href="mailto:sashibitcode@gmail.com"><img src="https://img.shields.io/badge/EMAIL-sashibitcode@gmail.com-EF4444?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=gmail" alt="Email Shashikant"></a>
+</p>
+
 </div>
 
 <br>
