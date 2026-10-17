@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Engineering and Analytics Toolkit">
+  <defs>
+    <linearGradient id="tk-card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1F0C18"/><stop offset="1" stop-color="#12060F"/></linearGradient>
+  </defs>
+  <style>
+    .tk-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .tk-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+  </style>
+
+  <g transform="translate(25, 10)">
+    <!-- Row 1: Languages, Data Analytics, Python Libraries -->
+    <!-- Col 1: Languages -->
+    <g transform="translate(0, 0)">
+      <rect width="365" height="155" rx="10" fill="url(#tk-card)" stroke="#701A3D" stroke-opacity=".6" stroke-width="1"/>
+      <text x="18" y="28" fill="#C77B9B" font-size="11" class="tk-mono" font-weight="bold" letter-spacing="1.5">01 · CORE LANGUAGES</text>
+      <text x="18" y="60" fill="#F8F0F3" font-size="19" class="tk-serif" font-weight="bold">Python · SQL · C/C++</text>
+      <text x="18" y="86" fill="#E5B5C7" font-size="12" class="tk-mono">High-performance analytics, complex query scripting &amp; algorithmic logic.</text>
+      <g transform="translate(18, 110)">
+        <rect width="64" height="22" rx="3" fill="#290E20"/><text x="8" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Python</text>
+        <rect x="74" width="50" height="22" rx="3" fill="#290E20"/><text x="82" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">SQL</text>
+        <rect x="134" width="55" height="22" rx="3" fill="#290E20"/><text x="142" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">C/C++</text>
+      </g>
+    </g>
+
+    <!-- Col 2: Data Analytics Methodologies -->
+    <g transform="translate(390, 0)">
+      <rect width="365" height="155" rx="10" fill="url(#tk-card)" stroke="#701A3D" stroke-opacity=".6" stroke-width="1"/>
+      <text x="18" y="28" fill="#C77B9B" font-size="11" class="tk-mono" font-weight="bold" letter-spacing="1.5">02 · DATA ANALYTICS &amp; STATS</text>
+      <text x="18" y="60" fill="#F8F0F3" font-size="19" class="tk-serif" font-weight="bold">EDA · Data Cleaning · Testing</text>
+      <text x="18" y="86" fill="#E5B5C7" font-size="12" class="tk-mono">Descriptive stats, correlation analysis, hypothesis testing &amp; preprocessing.</text>
+      <g transform="translate(18, 110)">
+        <rect width="48" height="22" rx="3" fill="#290E20"/><text x="8" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">EDA</text>
+        <rect x="58" width="95" height="22" rx="3" fill="#290E20"/><text x="66" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Preprocessing</text>
+        <rect x="163" width="85" height="22" rx="3" fill="#290E20"/><text x="171" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Statistics</text>
+      </g>
+    </g>
+
+    <!-- Col 3: Python Libraries & ML -->
+    <g transform="translate(780, 0)">
+      <rect width="365" height="155" rx="10" fill="url(#tk-card)" stroke="#701A3D" stroke-opacity=".6" stroke-width="1"/>
+      <text x="18" y="28" fill="#C77B9B" font-size="11" class="tk-mono" font-weight="bold" letter-spacing="1.5">03 · PYTHON LIBRARIES &amp; ML</text>
+      <text x="18" y="60" fill="#F8F0F3" font-size="19" class="tk-serif" font-weight="bold">Pandas · NumPy · Scikit-Learn</text>
+      <text x="18" y="86" fill="#E5B5C7" font-size="12" class="tk-mono">Matplotlib, Seaborn visualisations, Scikit-learn, TensorFlow &amp; RAG.</text>
+      <g transform="translate(18, 110)">
+        <rect width="65" height="22" rx="3" fill="#290E20"/><text x="8" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Pandas</text>
+        <rect x="75" width="60" height="22" rx="3" fill="#290E20"/><text x="83" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">NumPy</text>
+        <rect x="145" width="80" height="22" rx="3" fill="#290E20"/><text x="153" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Scikit-learn</text>
+      </g>
+    </g>
+
+    <!-- Row 2: Databases, Business Intelligence, Tools & Workflow -->
+    <!-- Col 4: Databases -->
+    <g transform="translate(0, 175)">
+      <rect width="365" height="155" rx="10" fill="url(#tk-card)" stroke="#701A3D" stroke-opacity=".6" stroke-width="1"/>
+      <text x="18" y="28" fill="#C77B9B" font-size="11" class="tk-mono" font-weight="bold" letter-spacing="1.5">04 · RELATIONAL DATABASES</text>
+      <text x="18" y="60" fill="#F8F0F3" font-size="19" class="tk-serif" font-weight="bold">PostgreSQL · MySQL · DBMS</text>
+      <text x="18" y="86" fill="#E5B5C7" font-size="12" class="tk-mono">Normalized schemas, aggregations, indexing, joins and CTE pipelines.</text>
+      <g transform="translate(18, 110)">
+        <rect width="90" height="22" rx="3" fill="#290E20"/><text x="8" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">PostgreSQL</text>
+        <rect x="100" width="60" height="22" rx="3" fill="#290E20"/><text x="108" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">MySQL</text>
+        <rect x="170" width="60" height="22" rx="3" fill="#290E20"/><text x="178" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">DBMS</text>
+      </g>
+    </g>
+
+    <!-- Col 5: Business Intelligence -->
+    <g transform="translate(390, 175)">
+      <rect width="365" height="155" rx="10" fill="url(#tk-card)" stroke="#701A3D" stroke-opacity=".6" stroke-width="1"/>
+      <text x="18" y="28" fill="#C77B9B" font-size="11" class="tk-mono" font-weight="bold" letter-spacing="1.5">05 · BUSINESS INTELLIGENCE</text>
+      <text x="18" y="60" fill="#F8F0F3" font-size="19" class="tk-serif" font-weight="bold">Power BI · Visual Storytelling</text>
+      <text x="18" y="86" fill="#E5B5C7" font-size="12" class="tk-mono">Interactive executive dashboards, KPI telemetry &amp; decision matrices.</text>
+      <g transform="translate(18, 110)">
+        <rect width="75" height="22" rx="3" fill="#290E20"/><text x="8" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Power BI</text>
+        <rect x="85" width="85" height="22" rx="3" fill="#290E20"/><text x="93" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Dashboards</text>
+        <rect x="180" width="70" height="22" rx="3" fill="#290E20"/><text x="188" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Reports</text>
+      </g>
+    </g>
+
+    <!-- Col 6: Tools & Workflow -->
+    <g transform="translate(780, 175)">
+      <rect width="365" height="155" rx="10" fill="url(#tk-card)" stroke="#701A3D" stroke-opacity=".6" stroke-width="1"/>
+      <text x="18" y="28" fill="#C77B9B" font-size="11" class="tk-mono" font-weight="bold" letter-spacing="1.5">06 · TOOLS &amp; PLATFORMS</text>
+      <text x="18" y="60" fill="#F8F0F3" font-size="19" class="tk-serif" font-weight="bold">Git · VS Code · Jupyter · Colab</text>
+      <text x="18" y="86" fill="#E5B5C7" font-size="12" class="tk-mono">Version control, notebook environments, cloud prototyping &amp; Linux.</text>
+      <g transform="translate(18, 110)">
+        <rect width="40" height="22" rx="3" fill="#290E20"/><text x="8" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Git</text>
+        <rect x="50" width="65" height="22" rx="3" fill="#290E20"/><text x="58" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">GitHub</text>
+        <rect x="125" width="65" height="22" rx="3" fill="#290E20"/><text x="133" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">Jupyter</text>
+        <rect x="200" width="65" height="22" rx="3" fill="#290E20"/><text x="208" y="15" fill="#E5B5C7" font-size="11" class="tk-mono">VS Code</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-labelledby="p-ec-t">
+  <title id="p-ec-t">Ecommerce Sales Analysis</title>
+  <defs>
+    <linearGradient id="p-ec-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0E172A"/>
+      <stop offset="100%" stop-color="#070B13"/>
+    </linearGradient>
+    <clipPath id="p-ec-clip"><rect width="1200" height="170" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .p-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "JetBrains Mono", monospace; }
+    .p-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Space Grotesk", sans-serif; }
+  </style>
+  <g clip-path="url(#p-ec-clip)">
+    <rect width="1200" height="170" fill="url(#p-ec-bg)"/>
+    <rect x="0.5" y="0.5" width="1199" height="169" rx="13.5" fill="none" stroke="#3B82F6" stroke-opacity=".3" stroke-width="1"/>
+    <rect width="4" height="170" fill="#3B82F6"/>
+
+    <g transform="translate(36, 32)">
+      <g>
+        <rect width="120" height="22" rx="4" fill="#0E1F38" stroke="#3B82F6" stroke-width="1"/>
+        <text x="12" y="15" fill="#38BDF8" font-size="10" class="p-mono" font-weight="bold">DATA ANALYTICS</text>
+        <rect x="130" width="110" height="22" rx="4" fill="#172554"/>
+        <text x="142" y="15" fill="#93C5FD" font-size="10" class="p-mono" font-weight="bold">BUSINESS INTEL</text>
+      </g>
+
+      <text x="0" y="52" fill="#FFFFFF" font-size="22" class="p-sans" font-weight="900" letter-spacing="0.5">
+        Ecommerce Sales Analysis &amp; Performance BI
+      </text>
+
+      <text x="0" y="80" fill="#94A3B8" font-size="13.5" class="p-sans">
+        End-to-end sales analytics pipeline modeling $2.29M transaction volume, evaluating regional margin dynamics &amp; segment profitability.
+      </text>
+
+      <g transform="translate(0, 98)">
+        <text x="0" y="12" fill="#64748B" font-size="11.5" class="p-mono">STACK:</text>
+        <text x="56" y="12" fill="#38BDF8" font-size="11.5" class="p-mono">Python · Pandas · SQL · Tableau · Seaborn</text>
+      </g>
+    </g>
+
+    <g transform="translate(940, 48)">
+      <rect width="215" height="74" rx="8" fill="#0A111F" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="28" fill="#38BDF8" font-size="18" class="p-sans" font-weight="900">$2.29M</text>
+      <text x="16" y="46" fill="#94A3B8" font-size="10.5" class="p-mono">VOLUME ANALYZED</text>
+      <text x="16" y="62" fill="#EF4444" font-size="10" class="p-mono">12.47% NET MARGIN</text>
+    </g>
+  </g>
+</svg>

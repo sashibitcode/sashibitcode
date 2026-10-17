@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-labelledby="ac-t">
+  <title id="ac-t">Recognition and Impact Highlights</title>
+  <defs>
+    <linearGradient id="ac-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <linearGradient id="ac-card-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#240D1B"/><stop offset="1" stop-color="#14060E"/></linearGradient>
+  </defs>
+  <style>
+    .ac-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ac-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+  </style>
+
+  <g transform="translate(0, 0)">
+    <!-- Card 1: $2.29M Sales -->
+    <g transform="translate(30, 20)">
+      <rect width="265" height="195" rx="12" fill="url(#ac-card-grad)" stroke="#701A3D" stroke-width="1"/>
+      <rect x="18" y="18" width="55" height="20" rx="3" fill="#2C0F22"/>
+      <text x="24" y="32" fill="#E5B5C7" font-size="10" class="ac-mono" font-weight="bold">REVENUE</text>
+      <text x="18" y="85" fill="#F8F0F3" font-size="38" class="ac-serif" font-weight="bold">$2.29M</text>
+      <text x="18" y="112" fill="#C77B9B" font-size="12" class="ac-mono" font-weight="600">Superstore Sales Analyzed</text>
+      <text x="18" y="140" fill="#E5B5C7" font-size="11" class="ac-mono">Uncovered $286K profit &amp; 12.47% margin across all regions.</text>
+      <rect x="18" y="172" width="229" height="1" fill="#701A3D" opacity=".4"/>
+    </g>
+
+    <!-- Card 2: 100+ Matches IPL -->
+    <g transform="translate(315, 20)">
+      <rect width="265" height="195" rx="12" fill="url(#ac-card-grad)" stroke="#701A3D" stroke-width="1"/>
+      <rect x="18" y="18" width="60" height="20" rx="3" fill="#2C0F22"/>
+      <text x="24" y="32" fill="#E5B5C7" font-size="10" class="ac-mono" font-weight="bold">PIPELINE</text>
+      <text x="18" y="85" fill="#F8F0F3" font-size="38" class="ac-serif" font-weight="bold">100K+</text>
+      <text x="18" y="112" fill="#C77B9B" font-size="12" class="ac-mono" font-weight="600">Ball-by-Ball IPL Records</text>
+      <text x="18" y="140" fill="#E5B5C7" font-size="11" class="ac-mono">SQL-driven player metrics &amp; Power BI performance dashboard.</text>
+      <rect x="18" y="172" width="229" height="1" fill="#701A3D" opacity=".4"/>
+    </g>
+
+    <!-- Card 3: 100% End-to-End Validation -->
+    <g transform="translate(600, 20)">
+      <rect width="265" height="195" rx="12" fill="url(#ac-card-grad)" stroke="#701A3D" stroke-width="1"/>
+      <rect x="18" y="18" width="70" height="20" rx="3" fill="#2C0F22"/>
+      <text x="24" y="32" fill="#E5B5C7" font-size="10" class="ac-mono" font-weight="bold">VALIDATION</text>
+      <text x="18" y="85" fill="#F8F0F3" font-size="38" class="ac-serif" font-weight="bold">180+</text>
+      <text x="18" y="112" fill="#C77B9B" font-size="12" class="ac-mono" font-weight="600">Countries Tracked</text>
+      <text x="18" y="140" fill="#E5B5C7" font-size="11" class="ac-mono">Complete data pipeline from ingestion to temporal trend modeling.</text>
+      <rect x="18" y="172" width="229" height="1" fill="#701A3D" opacity=".4"/>
+    </g>
+
+    <!-- Card 4: 3+ Industry Certifications -->
+    <g transform="translate(885, 20)">
+      <rect width="285" height="195" rx="12" fill="url(#ac-card-grad)" stroke="#701A3D" stroke-width="1"/>
+      <rect x="18" y="18" width="90" height="20" rx="3" fill="#2C0F22"/>
+      <text x="24" y="32" fill="#E5B5C7" font-size="10" class="ac-mono" font-weight="bold">CREDENTIALS</text>
+      <text x="18" y="85" fill="#F8F0F3" font-size="38" class="ac-serif" font-weight="bold">3 Verified</text>
+      <text x="18" y="112" fill="#C77B9B" font-size="12" class="ac-mono" font-weight="600">Industry Credentials</text>
+      <text x="18" y="140" fill="#E5B5C7" font-size="11" class="ac-mono">Cisco PCAP Python, Forage Data Visualisation, Google Cloud GenAI.</text>
+      <rect x="18" y="172" width="249" height="1" fill="#701A3D" opacity=".4"/>
+    </g>
+  </g>
+</svg>

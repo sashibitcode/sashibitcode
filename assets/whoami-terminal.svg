@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="w-t">
+  <title id="w-t">~/ whoami - Shashikant Raj</title>
+  <defs>
+    <linearGradient id="w-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E172A"/>
+      <stop offset="100%" stop-color="#070B13"/>
+    </linearGradient>
+    <clipPath id="w-clip"><rect width="1200" height="370" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .w-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "JetBrains Mono", monospace; }
+  </style>
+
+  <g clip-path="url(#w-clip)">
+    <rect width="1200" height="370" fill="url(#w-bg)"/>
+    <rect x="0.5" y="0.5" width="1199" height="369" rx="15.5" fill="none" stroke="#3B82F6" stroke-opacity=".3" stroke-width="1"/>
+
+    <!-- Terminal Titlebar -->
+    <rect width="1200" height="42" fill="#0A111F"/>
+    <line x1="0" y1="42" x2="1200" y2="42" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Mac Window Dots -->
+    <circle cx="28" cy="21" r="5.5" fill="#EF4444"/>
+    <circle cx="46" cy="21" r="5.5" fill="#EAB308"/>
+    <circle cx="64" cy="21" r="5.5" fill="#22C55E"/>
+
+    <!-- Terminal Breadcrumb -->
+    <text x="96" y="26" fill="#94A3B8" font-size="12" class="w-mono">
+      github.com / <tspan fill="#38BDF8">sashibitcode</tspan> / <tspan fill="#FFFFFF" font-weight="bold">whoami.json</tspan>
+    </text>
+
+    <!-- Terminal Body -->
+    <g transform="translate(36, 72)">
+      <text x="0" y="0" fill="#38BDF8" font-size="14" class="w-mono" font-weight="bold">
+        sashibitcode@cyber:~$ <tspan fill="#FFFFFF">cat profile.json</tspan>
+      </text>
+
+      <g transform="translate(16, 24)" font-size="12.5" class="w-mono">
+        <text x="0" y="0" fill="#64748B">{</text>
+        <text x="18" y="20" fill="#38BDF8">"name"<tspan fill="#64748B">:</tspan> <tspan fill="#FFFFFF">"Shashikant Raj"</tspan><tspan fill="#64748B">,</tspan></text>
+        <text x="18" y="40" fill="#38BDF8">"title"<tspan fill="#64748B">:</tspan> <tspan fill="#FFFFFF">"Data Analyst &amp; AI Technologist"</tspan><tspan fill="#64748B">,</tspan></text>
+        <text x="18" y="60" fill="#38BDF8">"education"<tspan fill="#64748B">:</tspan> <tspan fill="#FFFFFF">"B.Tech CSE · Jagannath University, Jaipur (2023 - 2027)"</tspan><tspan fill="#64748B">,</tspan></text>
+        <text x="18" y="80" fill="#38BDF8">"internship"<tspan fill="#64748B">:</tspan> <tspan fill="#FFFFFF">"AI &amp; Data Science Intern @ Knowx Innovations Pvt. Ltd."</tspan><tspan fill="#64748B">,</tspan></text>
+        <text x="18" y="100" fill="#38BDF8">"portfolio"<tspan fill="#64748B">:</tspan> <tspan fill="#60A5FA">"https://sashibitcode.vercel.app"</tspan><tspan fill="#64748B">,</tspan></text>
+        <text x="18" y="120" fill="#38BDF8">"email"<tspan fill="#64748B">:</tspan> <tspan fill="#60A5FA">"sashibitcode@gmail.com"</tspan><tspan fill="#64748B">,</tspan></text>
+        <text x="18" y="140" fill="#38BDF8">"core_stack"<tspan fill="#64748B">:</tspan> <tspan fill="#94A3B8">[</tspan><tspan fill="#FFFFFF">"Python"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#FFFFFF">"SQL"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#FFFFFF">"Power BI"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#FFFFFF">"Pandas"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#FFFFFF">"FastAPI"</tspan><tspan fill="#94A3B8">]</tspan><tspan fill="#64748B">,</tspan></text>
+        <text x="18" y="160" fill="#38BDF8">"status"<tspan fill="#64748B">:</tspan> <tspan fill="#EF4444">"Open to data analyst, BI &amp; software engineering opportunities"</tspan></text>
+        <text x="0" y="180" fill="#64748B">}</text>
+      </g>
+    </g>
+
+    <!-- Bottom Real Tagline -->
+    <g transform="translate(36, 330)">
+      <text x="0" y="0" fill="#64748B" font-size="11.5" class="w-mono">
+        // Transforming raw transactions and messy datasets into clean dashboards and predictive models.
+      </text>
+    </g>
+  </g>
+</svg>

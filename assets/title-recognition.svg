@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="02 Recognition: Proof, on the record.">
+  <defs>
+    <linearGradient id="ta-line-02" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
+      <stop offset="0" stop-color="#C77B9B"/>
+      <stop offset=".6" stop-color="#701A3D"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ta-sheen-02" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#E5B5C7"/>
+      <stop offset=".5" stop-color="#F8F0F3"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 1500 0; 1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="ta-pulse-02">
+      <stop offset="0" stop-color="#F8F0F3"/>
+      <stop offset=".5" stop-color="#E5B5C7" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .ta-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ta-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ta-rise { animation: ta-rise 1.2s cubic-bezier(.16,1,.3,1) both; }
+    @keyframes ta-rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  </style>
+
+  <g transform="translate(30, 20)">
+    <!-- Top Index Track -->
+    <g class="ta-rise">
+      <rect x="0" y="0" width="30" height="18" rx="3" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
+      <text x="6" y="13" fill="#E5B5C7" font-size="10.5" class="ta-mono" font-weight="bold">02</text>
+      <text x="38" y="13" fill="#A8577D" font-size="11" class="ta-mono" font-weight="600" letter-spacing="2.5">RECOGNITION</text>
+    </g>
+
+    <!-- Large Title -->
+    <text x="0" y="58" fill="#F8F0F3" font-size="36" class="ta-serif ta-rise" font-weight="bold" letter-spacing="-0.3">Proof, on the record.</text>
+
+    <!-- Animated Rule Line -->
+    <rect x="0" y="78" width="1140" height="1.5" fill="url(#ta-line-02)"/>
+    <rect x="0" y="77" width="1140" height="2" fill="url(#ta-sheen-02)" opacity=".8"/>
+    
+    <!-- Pulse Node -->
+    <circle cx="2" cy="79" r="3.5" fill="url(#ta-pulse-02)"/>
+  </g>
+</svg>

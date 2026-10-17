@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-labelledby="p-qd-t">
+  <title id="p-qd-t">QuickDownload: Lossless Media Extraction Platform</title>
+  <defs>
+    <linearGradient id="p-qd-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0E172A"/>
+      <stop offset="100%" stop-color="#070B13"/>
+    </linearGradient>
+    <clipPath id="p-qd-clip"><rect width="1200" height="170" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .p-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "JetBrains Mono", monospace; }
+    .p-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Space Grotesk", sans-serif; }
+  </style>
+  <g clip-path="url(#p-qd-clip)">
+    <rect width="1200" height="170" fill="url(#p-qd-bg)"/>
+    <rect x="0.5" y="0.5" width="1199" height="169" rx="13.5" fill="none" stroke="#3B82F6" stroke-opacity=".35" stroke-width="1"/>
+    <rect width="4" height="170" fill="#10B981"/>
+
+    <g transform="translate(36, 32)">
+      <g>
+        <rect width="140" height="22" rx="4" fill="#062E20" stroke="#10B981" stroke-width="1"/>
+        <text x="12" y="15" fill="#34D399" font-size="10" class="p-mono" font-weight="bold">MEDIA PIPELINE</text>
+        <rect x="150" width="120" height="22" rx="4" fill="#0E1F38" stroke="#3B82F6" stroke-width="1"/>
+        <text x="162" y="15" fill="#38BDF8" font-size="10" class="p-mono" font-weight="bold">FASTAPI + REACT</text>
+      </g>
+
+      <text x="0" y="52" fill="#FFFFFF" font-size="22" class="p-sans" font-weight="900" letter-spacing="0.5">
+        QuickDownload · <tspan fill="#34D399">Lossless Full-Stack Media Extraction Engine</tspan>
+      </text>
+
+      <text x="0" y="80" fill="#94A3B8" font-size="13.5" class="p-sans">
+        Zero-transcode stream multiplexing engine delivering instantaneous packaging for YouTube &amp; Instagram with Python FastAPI.
+      </text>
+
+      <g transform="translate(0, 98)">
+        <text x="0" y="12" fill="#64748B" font-size="11.5" class="p-mono">STACK:</text>
+        <text x="56" y="12" fill="#38BDF8" font-size="11.5" class="p-mono">Python · FastAPI · React 19 · Vite · yt-dlp · FFmpeg · Docker</text>
+      </g>
+    </g>
+
+    <g transform="translate(940, 48)">
+      <rect width="215" height="74" rx="8" fill="#0A111F" stroke="#1E293B" stroke-width="1"/>
+      <text x="16" y="28" fill="#34D399" font-size="18" class="p-sans" font-weight="900">0s Transcode</text>
+      <text x="16" y="46" fill="#94A3B8" font-size="10.5" class="p-mono">STREAM-COPY MUXING</text>
+      <text x="16" y="62" fill="#38BDF8" font-size="10" class="p-mono">quick-d.vercel.app ↗</text>
+    </g>
+  </g>
+</svg>

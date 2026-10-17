@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-label="Real-Time Crop Advisory AI System">
+  <defs>
+    <linearGradient id="pj-bg-04" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B0B14"/><stop offset="1" stop-color="#10070C"/></linearGradient>
+    <radialGradient id="pj-glow-04" cx="95%" cy="30%" r="50%"><stop offset="0" stop-color="#701A3D" stop-opacity=".45"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/></radialGradient>
+    <clipPath id="pj-clip-04"><rect width="1200" height="270" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .pj-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .pj-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .pj-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <g clip-path="url(#pj-clip-04)">
+    <rect width="1200" height="270" fill="url(#pj-bg-04)"/>
+    <rect width="1200" height="270" fill="url(#pj-glow-04)"/>
+    <rect x="0.5" y="0.5" width="1199" height="269" rx="13.5" fill="none" stroke="#701A3D" stroke-opacity=".5" stroke-width="1"/>
+
+    <g transform="translate(40, 32)">
+      <!-- Top Metadata Header -->
+      <g>
+        <rect width="28" height="18" rx="3" fill="#200B17" stroke="#701A3D" stroke-width="1"/>
+        <text x="6" y="13" fill="#E5B5C7" font-size="10.5" class="pj-mono" font-weight="bold">04</text>
+        <text x="36" y="13" fill="#C77B9B" font-size="11" class="pj-mono" font-weight="600" letter-spacing="2">MACHINE LEARNING · RAG ARCHITECTURE · 2026</text>
+      </g>
+
+      <!-- Project Title -->
+      <text x="0" y="58" fill="#F8F0F3" font-size="28" class="pj-serif" font-weight="bold" letter-spacing="-0.3">Real-Time Crop Advisory AI System</text>
+
+      <!-- Description -->
+      <text x="0" y="88" fill="#E5B5C7" font-size="13.5" class="pj-sans" width="750">Engineered at Knowx Innovations Pvt. Ltd. Integrating ML classification with Retrieval-Augmented Generation for agronomy advisory.</text>
+
+      <!-- Metrics Row -->
+      <g transform="translate(0, 114)">
+        
+        <g transform="translate(0, 0)">
+          <rect width="170" height="52" rx="6" fill="#1C0915" stroke="#701A3D" stroke-opacity=".7" stroke-width="1"/>
+          <text x="12" y="20" fill="#A8577D" font-size="10" class="pj-mono" font-weight="bold" letter-spacing="1">ARCHITECTURE</text>
+          <text x="12" y="42" fill="#F8F0F3" font-size="16" class="pj-serif" font-weight="bold">RAG + ML</text>
+        </g>
+        
+        <g transform="translate(182, 0)">
+          <rect width="170" height="52" rx="6" fill="#1C0915" stroke="#701A3D" stroke-opacity=".7" stroke-width="1"/>
+          <text x="12" y="20" fill="#A8577D" font-size="10" class="pj-mono" font-weight="bold" letter-spacing="1">INFERENCE</text>
+          <text x="12" y="42" fill="#F8F0F3" font-size="16" class="pj-serif" font-weight="bold">Real-Time</text>
+        </g>
+        
+        <g transform="translate(364, 0)">
+          <rect width="170" height="52" rx="6" fill="#1C0915" stroke="#701A3D" stroke-opacity=".7" stroke-width="1"/>
+          <text x="12" y="20" fill="#A8577D" font-size="10" class="pj-mono" font-weight="bold" letter-spacing="1">ADVISORY</text>
+          <text x="12" y="42" fill="#F8F0F3" font-size="16" class="pj-serif" font-weight="bold">Dynamic Insights</text>
+        </g>
+        
+        <g transform="translate(546, 0)">
+          <rect width="170" height="52" rx="6" fill="#1C0915" stroke="#701A3D" stroke-opacity=".7" stroke-width="1"/>
+          <text x="12" y="20" fill="#A8577D" font-size="10" class="pj-mono" font-weight="bold" letter-spacing="1">FRAMEWORK</text>
+          <text x="12" y="42" fill="#F8F0F3" font-size="16" class="pj-serif" font-weight="bold">TensorFlow</text>
+        </g>
+        
+      </g>
+
+      <!-- Tags & Action Button Row -->
+      <g transform="translate(0, 184)">
+        
+        <g transform="translate(0, 0)">
+          <rect width="66" height="24" rx="4" fill="#240C1B" stroke="#C77B9B" stroke-opacity=".3" stroke-width="1"/>
+          <text x="9" y="16" fill="#E5B5C7" font-size="11" class="pj-mono" font-weight="600">Python</text>
+        </g>
+        
+        <g transform="translate(76, 0)">
+          <rect width="114" height="24" rx="4" fill="#240C1B" stroke="#C77B9B" stroke-opacity=".3" stroke-width="1"/>
+          <text x="9" y="16" fill="#E5B5C7" font-size="11" class="pj-mono" font-weight="600">Scikit-learn</text>
+        </g>
+        
+        <g transform="translate(200, 0)">
+          <rect width="98" height="24" rx="4" fill="#240C1B" stroke="#C77B9B" stroke-opacity=".3" stroke-width="1"/>
+          <text x="9" y="16" fill="#E5B5C7" font-size="11" class="pj-mono" font-weight="600">TensorFlow</text>
+        </g>
+        
+        <g transform="translate(308, 0)">
+          <rect width="42" height="24" rx="4" fill="#240C1B" stroke="#C77B9B" stroke-opacity=".3" stroke-width="1"/>
+          <text x="9" y="16" fill="#E5B5C7" font-size="11" class="pj-mono" font-weight="600">RAG</text>
+        </g>
+        
+        <g transform="translate(360, 0)">
+          <rect width="154" height="24" rx="4" fill="#240C1B" stroke="#C77B9B" stroke-opacity=".3" stroke-width="1"/>
+          <text x="9" y="16" fill="#E5B5C7" font-size="11" class="pj-mono" font-weight="600">Knowx Innovations</text>
+        </g>
+        
+        <g transform="translate(524, 0)">
+          <rect width="106" height="24" rx="4" fill="#240C1B" stroke="#C77B9B" stroke-opacity=".3" stroke-width="1"/>
+          <text x="9" y="16" fill="#E5B5C7" font-size="11" class="pj-mono" font-weight="600">Agronomy AI</text>
+        </g>
+        
+      </g>
+
+      <!-- Right Action Indicator -->
+      <g transform="translate(1000, 180)">
+        <rect width="120" height="28" rx="4" fill="#2A0E20" stroke="#E5B5C7" stroke-opacity=".6" stroke-width="1"/>
+        <text x="18" y="18" fill="#F8F0F3" font-size="11" class="pj-mono" font-weight="bold" letter-spacing="1">VIEW REPO →</text>
+      </g>
+    </g>
+  </g>
+</svg>
