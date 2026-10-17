@@ -14,90 +14,203 @@
       justify-content: center;
     }
     .markdown-body {
-      max-width: 1040px;
+      max-width: 980px;
       width: 100%;
+      line-height: 1.6;
+    }
+    h2, h3 {
+      color: #FFFFFF;
+      margin-top: 28px;
+      margin-bottom: 14px;
+      font-weight: 700;
+    }
+    pre {
+      background-color: #0F172A;
+      border: 1px solid #1E293B;
+      border-radius: 8px;
+      padding: 14px 18px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      color: #38BDF8;
+      font-size: 14px;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      background: rgba(56, 189, 248, 0.1);
+      color: #38BDF8;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13.5px;
+    }
+    pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+    }
+    p {
+      margin: 14px 0;
+    }
+    ul {
+      padding-left: 24px;
+      margin: 14px 0;
+    }
+    li {
+      margin-bottom: 8px;
+      color: #CBD5E1;
+    }
+    a {
+      color: #38BDF8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: #0A111F;
+      border: 1px solid #1E293B;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid #1E293B;
+    }
+    th {
+      background: #0E172A;
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+    tr:last-child td {
+      border-bottom: none;
     }
     img {
       max-width: 100%;
       height: auto;
-      display: block;
-      margin: 14px 0;
-    }
-    p {
-      margin: 16px 0;
-    }
-    a {
-      text-decoration: none;
+      display: inline-block;
     }
     .badge-row {
       display: flex;
       justify-content: center;
       gap: 8px;
       flex-wrap: wrap;
-      margin: 12px 0 24px 0;
+      margin: 16px 0;
     }
     .badge-row img {
       margin: 0;
       display: inline;
     }
+    hr {
+      border: none;
+      border-top: 1px solid #1E293B;
+      margin: 32px 0;
+    }
   </style>
 </head>
 <body>
   <div class="markdown-body">
-    <!-- PAGE 1: HERO PORTRAIT (AUTHENTIC DATA + VISIBLE PHOTO CUTOUT) -->
+    <!-- HERO PORTRAIT (AUTHENTIC DATA + VISIBLE PHOTO CUTOUT) -->
     <div style="text-align: center;">
       <a href="https://sashibitcode.vercel.app" target="_blank">
-        <img src="assets/hero-portrait.svg" alt="Hero Portrait" width="100%">
+        <img src="assets/hero-portrait.svg" alt="Hero Portrait" style="width: 100%;">
       </a>
     </div>
 
     <br>
 
-    <!-- PAGE 2: ~/ whoami (VERIFIED PORTFOLIO DATA) -->
-    <img src="assets/whoami-terminal.svg" width="100%" alt="~/ whoami - Shashikant Raj">
+    <!-- WHOAMI TERMINAL (PURE CODE & REAL LINKS) -->
+    <h3>💻 <code>~/ whoami</code></h3>
+    <pre><code>$ cat about.txt</code></pre>
+    <p>
+      Hi, I'm <strong style="color: #FFFFFF;">Shashikant Raj</strong>. I build things that sit somewhere between data analytics and full-stack AI, and I solve problems when neither of those is cooperating.
+    </p>
+    <ul>
+      <li>🔭 Currently building <a href="https://github.com/sashibitcode/sas-ai" target="_blank"><strong>sas-ai</strong></a> and <a href="https://github.com/sashibitcode/quickdownload" target="_blank"><strong>quickdownload</strong></a></li>
+      <li>🌐 Portfolio: <a href="https://sashibitcode.vercel.app" target="_blank"><strong>sashibitcode.vercel.app</strong></a></li>
+      <li>🛠️ Core Stack: <code>Python</code> · <code>SQL</code> · <code>Power BI</code> · <code>Pandas</code> · <code>FastAPI</code> · <code>Next.js / React</code></li>
+      <li>🎓 Education: <strong style="color: #FFFFFF;">B.Tech Computer Science & Engineering</strong> @ Jagannath University, Jaipur</li>
+      <li>💡 Fun fact: <em>I started coding seriously because I wanted to build things I wished existed.</em></li>
+    </ul>
 
     <br>
 
-    <!-- PAGE 3: ~/ toolbox (REAL SKILLS & LIBRARIES) -->
-    <img src="assets/toolbox.svg" width="100%" alt="~/ toolbox - Tech Stack">
+    <!-- TOOLBOX (DYNAMIC SKILLICONS.DEV SQUIRCLE TILES) -->
+    <div style="text-align: center;">
+      <h3>🛠️ <code>~/ toolbox</code></h3>
+      <p style="text-align: center;">
+        <img src="https://skillicons.dev/icons?i=cpp,js,ts,react,nextjs,nodejs,tailwind,postgres,python" alt="Languages & Frameworks">
+      </p>
+      <p style="text-align: center;">
+        <img src="https://skillicons.dev/icons?i=git,github,vscode,html,css,fastapi,mysql" alt="Tools & Databases">
+      </p>
+    </div>
 
     <br>
 
-    <!-- PAGE 4: 03 SELECTED WORK (REAL PROJECTS: SAS.AI, QUICKDOWNLOAD, ECOMMERCE, IPL) -->
-    <img src="assets/title-work.svg" width="100%" alt="03 Selected Work">
-    
-    <a href="https://github.com/sashibitcode/sas-ai" target="_blank">
-      <img src="assets/project-sas-ai.svg" width="100%" alt="SAS.AI: Full-Stack AI Chatbot">
-    </a>
-
-    <a href="https://github.com/sashibitcode/quickdownload" target="_blank">
-      <img src="assets/project-quickdownload.svg" width="100%" alt="QuickDownload: Lossless Media Extraction Engine">
-    </a>
-
-    <a href="https://github.com/sashibitcode/Ecommerce-Sales-Analysis" target="_blank">
-      <img src="assets/project-ecommerce.svg" width="100%" alt="Ecommerce Sales Analysis">
-    </a>
-
-    <a href="https://github.com/sashibitcode/IPL-Cricket-Analysis" target="_blank">
-      <img src="assets/project-ipl.svg" width="100%" alt="IPL Cricket Performance Analytics">
-    </a>
+    <!-- 03 SELECTED WORK (REAL PRODUCTION REPOSITORIES IN CODE TABLE) -->
+    <h3>🚀 <code>03 Selected Work</code></h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Core Stack</th>
+          <th>Repository</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong style="color: #FFFFFF;">SAS.AI</strong></td>
+          <td>Full-Stack AI Chatbot with Meta Llama 3.2 via NVIDIA NIM (&lt;350ms TTFT)</td>
+          <td><code>Next.js 14</code> <code>TypeScript</code> <code>Tailwind</code></td>
+          <td><a href="https://github.com/sashibitcode/sas-ai" target="_blank">sashibitcode/sas-ai →</a></td>
+        </tr>
+        <tr>
+          <td><strong style="color: #FFFFFF;">QuickDownload</strong></td>
+          <td>Lossless Media Extraction Engine supporting YouTube, Instagram, X</td>
+          <td><code>FastAPI</code> <code>Python</code> <code>React 19</code></td>
+          <td><a href="https://github.com/sashibitcode/quickdownload" target="_blank">sashibitcode/quickdownload →</a></td>
+        </tr>
+        <tr>
+          <td><strong style="color: #FFFFFF;">Ecommerce Sales Analysis</strong></td>
+          <td>$2.29M sales volume analytics dashboard with customer retention KPIs</td>
+          <td><code>Power BI</code> <code>Python</code> <code>Pandas</code></td>
+          <td><a href="https://github.com/sashibitcode/Ecommerce-Sales-Analysis" target="_blank">Ecommerce-Sales-Analysis →</a></td>
+        </tr>
+        <tr>
+          <td><strong style="color: #FFFFFF;">IPL Cricket Performance</strong></td>
+          <td>Ball-by-ball match analytics across 10 teams and 100K+ records</td>
+          <td><code>SQL</code> <code>Python</code> <code>Pandas</code></td>
+          <td><a href="https://github.com/sashibitcode/IPL-Cricket-Analysis" target="_blank">IPL-Cricket-Analysis →</a></td>
+        </tr>
+      </tbody>
+    </table>
 
     <br>
 
-    <!-- PAGE 5: GITHUB ANALYTICS & ACTIVITY GRAPH -->
-    <img src="assets/github-analytics.svg" width="100%" alt="GitHub Analytics & Contribution Activity Graph">
+    <!-- 04 GITHUB ANALYTICS -->
+    <h3>📈 <code>04 GitHub Analytics</code></h3>
+    <img src="assets/github-analytics.svg" alt="GitHub Analytics & Activity Graph" style="width: 100%;">
 
     <br>
 
-    <!-- PAGE 6: CERTIFICATIONS (4 VERIFIED CREDENTIALS) -->
-    <img src="assets/title-certifications.svg" width="100%" alt="05 Certifications">
-    <img src="assets/certifications.svg" width="100%" alt="Certifications">
+    <!-- 05 CERTIFICATIONS (VERIFIED CREDENTIALS) -->
+    <h3>📜 <code>05 Certifications</code></h3>
+    <ul>
+      <li>🏅 <strong style="color: #FFFFFF;">PCAP: Programming Essentials in Python</strong> — <em>Cisco Networking Academy</em></li>
+      <li>🏅 <strong style="color: #FFFFFF;">SQL (Intermediate) Certificate</strong> — <em>HackerRank</em></li>
+      <li>🏅 <strong style="color: #FFFFFF;">Data Visualisation: Empowering Business with Effective Insights</strong> — <em>Tata / Forage</em></li>
+      <li>🏅 <strong style="color: #FFFFFF;">Generative AI Studio on Google Cloud</strong> — <em>Google Cloud Skills Boost</em></li>
+    </ul>
 
     <br>
 
-    <!-- PAGE 7: 06 LET'S CONNECT (100% CODE & CLICKABLE) -->
+    <!-- 06 LET'S CONNECT (100% CODE & CLICKABLE) -->
     <div style="text-align: center; margin: 32px 0 16px 0;">
-      <h2 style="color: #FFFFFF; font-size: 24px; font-weight: bold; margin-bottom: 16px;"><span style="color:#38BDF8">///</span> Let's Connect</h2>
+      <h3 style="color: #FFFFFF; font-size: 24px; font-weight: bold; margin-bottom: 16px;">🌐 Let's Connect</h3>
       <div class="badge-row">
         <a href="https://www.linkedin.com/in/sashikant-raj/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
         <a href="https://github.com/sashibitcode" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
@@ -105,12 +218,15 @@
         <a href="https://sashibitcode.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
         <a href="mailto:sashibitcode@gmail.com"><img src="https://img.shields.io/badge/Email-EF4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
       </div>
+
+      <hr>
+
+      <p style="text-align: center;">
+        <em>Building systems and uncovering patterns that explain themselves.</em><br>
+        <code>DATA ANALYTICS</code> · <code>MACHINE LEARNING</code> · <code>INTELLIGENT SYSTEMS</code><br><br>
+        <em>See you in the next commit ⚡</em>
+      </p>
     </div>
-
-    <br>
-
-    <!-- SIGNATURE & CLOSING FOOTER -->
-    <img src="assets/footer-unified.svg" width="100%" alt="Shashikant Raj - Signature & Closing Footer">
   </div>
 </body>
 </html>
