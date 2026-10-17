@@ -95,7 +95,7 @@
       <!-- Line 1: SHASHIKANT -->
       <text x="0" y="0" fill="#FFFFFF" font-size="58" class="h-sans" font-weight="900" letter-spacing="1">SHASHIKANT</text>
 
-      <!-- Line 2: RAJ + /// BUILD. BEYOND. -->
+      <!-- Line 2: RAJ -->
       <g transform="translate(0, 56)">
         <text x="0" y="0" fill="#3B82F6" font-size="58" class="h-sans" font-weight="900" letter-spacing="1">RAJ</text>
         <text x="0" y="0" fill="url(#h-sheen)" font-size="58" class="h-sans" font-weight="900" letter-spacing="1">RAJ</text>

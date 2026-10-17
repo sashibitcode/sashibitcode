@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://sashibitcode.vercel.app">
-  <img src="assets/hero-portrait.svg" width="100%" alt="Shashikant Raj — Data Analyst &amp; AI Technologist. Building beyond.">
+  <img src="assets/hero-portrait.svg?v=2" width="100%" alt="Shashikant Raj — Data Analyst &amp; AI Technologist">
 </a>
 
 <p align="center">
