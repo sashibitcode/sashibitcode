@@ -52,11 +52,6 @@
 
 <br>
 
-<!-- ================= CONTRIBUTION SNAKE ================= -->
-<img src="assets/contribution-snake.svg" width="100%" alt="Contribution Graph Snake Animation">
-
-<br>
-
 <!-- ================= CERTIFICATIONS (4 VERIFIED CREDENTIALS) ================= -->
 <img src="assets/title-certifications.svg" width="100%" alt="05 Certifications — Credentials, verified.">
 
