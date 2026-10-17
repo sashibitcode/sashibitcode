@@ -1,16 +1,8 @@
 <div align="center">
 
 <a href="https://sashibitcode.vercel.app">
-  <img src="assets/hero-portrait.svg" width="100%" alt="Shashikant Raj — Data Analyst & AI Technologist. Building beyond.">
+  <img src="assets/hero-portrait.svg" width="100%" alt="Shashikant Raj — Data Analyst &amp; AI Technologist. Building beyond.">
 </a>
-
-<p align="center">
-  <a href="https://sashibitcode.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-sashibitcode.vercel.app-3B82F6?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=vercel" alt="Portfolio website"></a>
-  <a href="https://github.com/sashibitcode"><img src="https://img.shields.io/badge/GITHUB-sashibitcode-3B82F6?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=github" alt="GitHub profile"></a>
-  <a href="https://www.linkedin.com/in/sashikant-raj/"><img src="https://img.shields.io/badge/LINKEDIN-sashikant--raj-3B82F6?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=linkedin" alt="LinkedIn profile"></a>
-  <a href="https://leetcode.com/u/sashibitcode/"><img src="https://img.shields.io/badge/LEETCODE-sashibitcode-EF4444?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=leetcode" alt="LeetCode profile"></a>
-  <a href="mailto:sashibitcode@gmail.com"><img src="https://img.shields.io/badge/EMAIL-sashibitcode@gmail.com-EF4444?style=for-the-badge&labelColor=070B13&logoColor=FFFFFF&logo=gmail" alt="Email Shashikant"></a>
-</p>
 
 </div>
 
@@ -59,13 +51,33 @@
 
 <br>
 
-<!-- ================= UNIFIED FOOTER ================= -->
-<img src="assets/footer-unified.svg" width="100%" alt="Shashikant Raj - Let's Connect & Signature Footer">
+<!-- ================= 06 LET'S CONNECT (100% CODE & CLICKABLE) ================= -->
+<div align="center">
+
+<h2><span style="color:#38BDF8">///</span> Let's Connect</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/sashikant-raj/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/sashibitcode"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://leetcode.com/u/sashibitcode/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"></a>
-  <a href="https://sashibitcode.vercel.app"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="mailto:sashibitcode@gmail.com"><img src="https://img.shields.io/badge/Email-EF4444?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/sashikant-raj/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/sashibitcode" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://leetcode.com/u/sashibitcode/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
+  </a>
+  <a href="https://sashibitcode.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="mailto:sashibitcode@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EF4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </p>
+
+</div>
+
+<br>
+
+<!-- ================= SIGNATURE & CLOSING FOOTER ================= -->
+<img src="assets/footer-unified.svg" width="100%" alt="Shashikant Raj - Signature & Closing Footer">
+
