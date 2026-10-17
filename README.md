@@ -87,15 +87,6 @@ Hi, I'm **Shashikant Raj**. I build things that sit somewhere between data analy
   </a>
 </p>
 
-<br>
-
----
-
-<p align="center">
-  <em>Building systems and uncovering patterns that explain themselves.</em><br>
-  <code>DATA ANALYTICS</code> · <code>MACHINE LEARNING</code> · <code>INTELLIGENT SYSTEMS</code><br><br>
-  <em>See you in the next commit ⚡</em>
-</p>
-
 </div>
+
 
